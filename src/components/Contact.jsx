@@ -1,10 +1,11 @@
 import Banner from "./Banner";
 import Header from "./Header";
 import ContactForm from "./ContactForm";
+import bgImage from "../uploads/images/08.jpg";
 
 function Contact() {
   const data = {
-    backgroundImage: "url(banner_7.jpg)",
+    backgroundImage: `url(${bgImage})`,
     title: "Contact Us",
     // textParaStyle: { color: "#fff" },
   };

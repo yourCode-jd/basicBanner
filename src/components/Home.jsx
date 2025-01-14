@@ -1,10 +1,10 @@
 import Banner from "./Banner";
 import Header from "./Header";
-import Card from "../components/Card";
+import bgImage from "../uploads/images/banner_7.jpg";
 
 function Home() {
   const data = {
-    backgroundImage: "url(.../src/uploads/images/banner_1.jpg)",
+    backgroundImage: `url(${bgImage})`,
     title: "Best app for your lifestyle",
   };
   return (
@@ -14,7 +14,6 @@ function Home() {
           <div className="row">
             <Header />
             <Banner {...data} />
-            <Card />
           </div>
         </div>
       </>

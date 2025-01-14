@@ -1,9 +1,10 @@
 import Banner from "./Banner";
 import Header from "./Header";
+import bgImage from "../uploads/images/banner_8.jpg";
 
 function Blog() {
   const data = {
-    backgroundImage: "url(banner_5.jpg)",
+    backgroundImage: `url(${bgImage})`,
     title: "Blog",
     // textParaStyle: { color: "#fff" },
   };

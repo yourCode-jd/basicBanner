@@ -1,9 +1,10 @@
 import Banner from "./Banner";
 import Header from "./Header";
+import bgImage from "../uploads/images/banner_5.jpg";
 
 function Services() {
   const data = {
-    backgroundImage: "url(banner_7.jpg)",
+    backgroundImage: `url(${bgImage})`,
     title: "Services",
   };
 
