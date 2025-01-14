@@ -1,0 +1,81 @@
+.App-link {
+  font-size: 25px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #00a7dd;
+  line-height: normal;
+  min-width: 100px;
+}
+
+nav.navbar {
+  padding: 15px 0;
+}
+
+.hero-section {
+  padding: 0;
+}
+
+.hero {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: block;
+  background-position: 100% -60px;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  height: 600px;
+}
+
+.sub-content {
+  max-width: 50%;
+}
+
+.hero-title {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #333;
+}
+
+.hero-text {
+  color: #666;
+  line-height: 30px;
+  margin-bottom: 25px;
+}
+
+.common-btn {
+  border-radius: 0;
+  text-transform: uppercase;
+  font-size: 16px;
+  background: #333;
+  border-color: #333;
+}
+
+.hero-btn a:hover,
+.contact-outer .common-btn:hover {
+  background: #333;
+  border-color: #333;
+}
+
+/* Contact Us */
+
+.contact-outer {
+  max-width: 50%;
+  margin: 50px auto;
+}
+
+.contact-outer input {
+  border: 1px solid #0098c921;
+  border-radius: 2px;
+  height: 45px;
+}
+
+.contact-outer .common-btn {
+  min-width: 150px;
+}
+
+.contact-outer textarea {
+  border-radius: 0;
+  border: 1px solid #0098c921;
+}
